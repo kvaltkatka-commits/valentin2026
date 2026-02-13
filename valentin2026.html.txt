@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<title>Valentín 💕</title>
+
+<style>
+body{
+font-family: Arial;
+background: linear-gradient(to bottom,#ffd6e8,#e0f4ff);
+text-align:center;
+padding:40px;
+}
+
+.box{
+background:white;
+padding:20px;
+border-radius:20px;
+width:60%;
+margin:auto;
+}
+
+button{
+background:#ff9ecb;
+border:none;
+padding:15px;
+border-radius:20px;
+font-size:18px;
+cursor:pointer;
+}
+
+.card{
+display:none;
+margin-top:20px;
+}
+
+img{
+max-width:300px;
+border-radius:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Šťastného Valentína 💕</h1>
+
+<div class="box">
+Sem si napíš svoju správu pre kamarátky
+</div>
+
+<br>
+
+<button onclick="showCard()">Klikni na valentínsku kartičku 💌</button>
+
+<div class="card" id="card">
+<img src="SEM_DAJ_LINK_NA_OBRAZOK">
+<p>Sem napíš text ku kartičke</p>
+</div>
+
+<script>
+function showCard(){
+document.getElementById("card").style.display="block";
+}
+</script>
+
+</body>
+</html>
